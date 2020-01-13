@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+/******** Start button responsive *********/
+.navbar-toggler {
+    border: none;
+}
+
+#wrapper {
+    background: #2cbf9a;
+    display: inline-block;
+    border-radius: 500px;
+    position: relative;
+    cursor: pointer;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    right: 14.5px;
+    height: 5px;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+.top {
+    top: 31%;
+}
+
+.middle {
+    top: 47%;
+}
+
+.bottom {
+    top: 64%;
+}
+
+.icon.close .top {
+    transform: rotate(45deg);
+    top: 48%;
+}
+
+.icon.close .middle,
+.icon.close .bottom {
+    transform: rotate(-45deg);
+    top: 48%;
+}
+
+/******** Nav Bar  *********/
+
+header .nav-item {
+    padding: 0.5em;
+}
+
+.nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .navbar-brand {
+    padding-left: 9em;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+}
+
+
+a.nav-link:hover {
+    color: #2cbf9a;
+}
+
+
+/********** Start Carousel  **************/
+.image-carousel {
+    object-fit: cover;
+    height: 650px;
+    filter: brightness(45%);
+
+}
+
+/********** Start Section 1  **************/
+.section-1 {
+    padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/********** Section 2 **************/
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("../img/river-near-city-buildings-under-cloudy-sky-1209978.jpg");
+    background-position: -24rem -50rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-size: 3vmin;
+    color: #e5e5e5;
+    margin: 1em;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 10rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px #83a787;
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 3rem;
+    color: #2cbf9a;
+}
+
+.numbers .rect>p {
+    font-size: 1.2em;
+}
+
+/********** Start Section 3 **************/
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: linear-gradient(to bottom, #13aa84, #00e7ad);
+
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 0.5em 0;
+    color: rgb(255, 255, 255);
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: #ffffff;
+    font-size: 3vmin;
+}
+
+.section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop:hover {
+    background-color: rgb(187, 253, 133);
+}
+
+
+.section-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2.5vmin;
+}
+
+/********** Start Section 4 **************/
+.section-4 .container h1 {
+    font-size: 6.5vmin;
+    padding-top: 15vmin;
+}
+
+.section-4 .text-secondary {
+    font-size: 1.5em;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 25em;
+    margin-top: 5vmin;
+    padding-bottom: 2em;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card-body>a {
+    font-size: 1em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+
+/********** FOOTER **************/
+
+footer {
+    background: #1e1e1e;
+    overflow-x: hidden;
+    padding: 2vmin 18vmin;
+    padding-top: 30vmin;
+}
+
+footer p>span {
+    color: #2cbf9a;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: #2cbf9a;
+    border: none;
+}
+
+footer .column i {
+    color: #2cbf9a;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+footer .img-dev {
+    margin: 1rem;
+    width: 5%;
+}

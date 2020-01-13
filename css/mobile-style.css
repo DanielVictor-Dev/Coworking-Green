@@ -1,0 +1,103 @@
+@media only screen and (max-width: 768px) {
+
+    /******** Nav Bar  *********/
+    header .navbar-brand {
+        padding-left: 0.5rem;
+    }
+
+    header .navbar-toggler {
+        padding-right: 0rem;
+    }
+
+    /***** Start Carousel  ********/
+
+    .image-carousel {
+        object-position: 70% 0;
+        object-fit: cover;
+        height: 450px;
+        filter: brightness(45%);
+
+    }
+
+    .title-font {
+
+        font-size: 2rem;
+
+    }
+
+    /***** Start Section 1  ********/
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    /***** Start Section 2  ********/
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    /***** Start Section 3  ********/
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .platform .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+
+    /***** Start Section 4  ********/
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+
+    /***** Footer  ********/
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+
+    footer .img-dev {
+        margin: 1rem;
+        width: 15%;
+    }
+
+}
+
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card {
+        width: 18em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-4 .carousel-inner {
+        margin-left: -4vmin;
+    }
+}
